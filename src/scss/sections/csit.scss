@@ -1,0 +1,118 @@
+.csit {
+  padding: 75px 0 30px;
+  position: relative;
+  @media (max-width: $mobile) {
+    padding-bottom: 93px;
+  }
+
+  &::after {
+    content: '';
+    background: #F4F4F4;
+    height: 140px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    @media (max-width: 1300px) {
+      display: none;
+
+    }
+  }
+
+  &__container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      gap: 67px;
+    }
+  }
+
+  &__image-ibg {
+    aspect-ratio: 624/814;
+    max-width: 624px;
+    width: 100%;
+    transition: opacity 1.4s ease .3s;
+    opacity: 0;
+    @media (max-width: $tablet) {
+      width: 50%;
+      flex-shrink: 0;
+    }
+    @media (max-width: $mobile) {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    &._watcher-view {
+      opacity: 1;
+    }
+  }
+
+  &__content {
+    max-width: 659px;
+    padding-top: 60px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 1s ease .3s, opacity 0.7s ease .3s;
+    @media (max-width: $tablet) {
+      padding-top: 0;
+    }
+
+    &._watcher-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: math.div(52, 48);
+    @media (max-width: $tablet) {
+      font-size: 38px;
+    }
+    @media (max-width: 400px) {
+      font-size: 32px;
+
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: math.div(24, 20);
+
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 24px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 41px;
+      @media (max-width: $mobile) {
+        margin-bottom: 91px;
+      }
+    }
+  }
+
+  &__button {
+    min-width: 269px;
+    @media (max-width: $mobile) {
+      display: flex;
+      margin: 0 auto;
+      max-width: 269px;
+    }
+  }
+}
+
