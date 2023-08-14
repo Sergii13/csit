@@ -17,13 +17,13 @@
 
 //REM
 @function toRem($px) {
-  $result: math.div($px, 16) + rem;
+  $result: math.div($px, 1) + px;
   @return $result;
 }
 
 //EM
-@function em($px, $current: 16) {
-  $result: math.div($px, $current) + em;
+@function em($px, $current: 1) {
+  $result: math.div($px, $current) + px;
   @return $result;
 }
 
