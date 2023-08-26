@@ -34,6 +34,17 @@
   }
 }
 
+@mixin animation($speedOpacity:1,$speedTransform:0.8,$setTimeOut:0) {
+  transition: opacity #{$speedOpacity}s ease #{$setTimeOut}s, transform #{$speedTransform}s ease #{$setTimeOut}s;
+  opacity: 0;
+  transform: translateY(100px);
+
+  &._watcher-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 // Grids
 @mixin gridCards($type: fit, $min: 280px, $max: 1fr, $gap: 30px) {
   display: grid;

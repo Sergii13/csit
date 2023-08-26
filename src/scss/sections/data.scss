@@ -1,0 +1,124 @@
+.data {
+  padding: 235px 0 268px;
+  @media (max-width: $pc) {
+    padding: 150px 0;
+  }
+  @media (max-width: $tablet) {
+    padding: 50px 0 60px;
+  }
+
+  &__container {
+  }
+
+  &__grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 66px;
+    align-items: flex-start;
+    @media (max-width: $pc) {
+      gap: 40px;
+    }
+    @media (max-width: $tablet) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 48px;
+    }
+
+  }
+
+  &__title {
+    font-size: 78px;
+    color: var(--green);
+    word-break: break-word;
+    line-height: math.div(96, 78);
+    font-weight: 700;
+    padding: 0 40px 270px 70px;
+    @media (max-width: $pc) {
+      padding: 0px 0px 250px 0px;
+      font-size: 68px;
+    }
+    @media (max-width: $tablet) {
+      font-size: 52px;
+      margin-bottom: 50px;
+      padding: 0;
+    }
+
+  }
+
+
+  &__item {
+  }
+}
+
+.item-data {
+  min-height: 667px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  color: var(--white);
+  background: var(--green);
+  padding: 60px 60px 40px 60px;
+  @include animation(1, 0.8, 0.3);
+  @media (max-width: $pc) {
+    padding: 40px;
+  }
+  @media (max-width: $tablet) {
+    min-height: 649px;
+    padding: 63px 22px 40px;
+    margin: 0 -22px;
+  }
+
+  &:nth-child(odd) {
+    margin-top: -250px;
+    @media (max-width: $tablet) {
+      margin-top: 0;
+    }
+  }
+
+  &__icon {
+    height: 165px;
+    @media (max-width: $mobile) {
+      max-height: 124px;
+    }
+
+    img {
+      max-height: 100%
+    }
+  }
+
+  &__content {
+  }
+
+  &__count {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--light-green);
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: math.div(52, 48);
+    font-weight: 700;
+    padding-bottom: 27px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    word-break: break-word;
+    @media (max-width: $pc) {
+      font-size: 32px;
+    }
+    @media (max-width: $tablet) {
+      font-size: 48px;
+    }
+
+
+    &:not(:last-child) {
+      margin-bottom: 27px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: math.div(24, 20);
+  }
+}

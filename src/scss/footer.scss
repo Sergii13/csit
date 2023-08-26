@@ -5,6 +5,13 @@
     padding: 90px 0 115px;
   }
 
+  &--big {
+    padding-top: 284px;
+    @media (max-width: $mobile) {
+      padding-top: 90px;
+    }
+  }
+
   &__container {
 
   }

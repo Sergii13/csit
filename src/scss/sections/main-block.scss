@@ -1,6 +1,8 @@
 .hero {
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
 
   &__image-ibg {
     position: absolute;
@@ -13,10 +15,23 @@
 
 .main-block {
   padding-bottom: 250px;
+  flex: 1 1 auto;
+
+  &--services {
+    padding-bottom: 0;
+
+    .main-block__content {
+      padding-top: 60px;
+      @media (max-width: $mobile) {
+        padding-top: 120px;
+      }
+    }
+  }
 
   &__container {
     position: relative;
     z-index: 2;
+    height: 100%;
   }
 
   &__content {
@@ -60,7 +75,80 @@
       transform: translateY(0);
     }
   }
+
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+    padding-top: 30px;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 100px;
+    padding-bottom: 92px;
+    @media (max-width: 1600px) {
+      margin-top: 50px;
+      padding-bottom: 50px;
+    }
+    @media (max-width: $pc) {
+      gap: 20px;
+    }
+    @media (max-width: $tablet) {
+      grid-template-columns: repeat(1, 1fr);
+      padding-bottom: 11px;
+      gap: 0px;
+      margin-top: 77px;
+      padding-top: 0;
+    }
+
+  }
+
+  &__link {
+    padding: 0px 25px 15px 0px;
+    display: flex;
+    align-items: flex-end;
+    gap: 36px;
+    color: var(--white);
+    justify-content: space-between;
+    @media (max-width: $tablet) {
+      padding: 30px 10px;
+    }
+
+    &:hover {
+      .main-block__link-text {
+        transform: translateX(20px);
+      }
+
+      .main-block__link-icon {
+        transform: rotate(45deg);
+      }
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid #D5D5D5;
+      @media (max-width: $tablet) {
+        border-right: none;
+        border-bottom: 1px solid #D5D5D5;
+      }
+    }
+  }
+
+  &__link-text {
+    max-width: 309px;
+    flex: 1 1 auto;
+    font-size: 34px;
+    transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
+    font-weight: 700;
+    line-height: math.div(38, 34);
+    @media (max-width: $pc) {
+      font-size: 24px;
+    }
+
+  }
+
+  &__link-icon {
+    width: 25px;
+    flex-shrink: 0;
+    transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
+  }
+
 }
 
-.title {
-}

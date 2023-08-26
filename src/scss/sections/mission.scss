@@ -1,0 +1,133 @@
+.mission {
+  padding-top: 94px;
+  background: var(--green);
+  color: var(--white);
+  @media (max-width: $mobile) {
+    padding-top: 28px;
+    padding-bottom: 50px;
+  }
+
+  &__container {
+  }
+
+
+  &--grey {
+    background: #F4F4F4;
+    color: var(--primary);
+  }
+
+  &--white {
+    background: var(--white);
+    color: var(--primary);
+  }
+
+  &--mob-white {
+    @media (max-width: $tablet) {
+      background: #fff;
+    }
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    gap: clamp(30px, 10vw, 178px);
+    align-items: flex-start;
+    @media (max-width: $tablet) {
+      gap: 30px;
+    }
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      gap: 46px;
+    }
+
+  }
+
+  &__image-ibg {
+    width: percent(624, 1470);
+    flex-shrink: 0;
+    aspect-ratio: 624/815;
+    margin-bottom: -84px;
+    @include animation();
+    @media (max-width: 1600px) {
+      max-width: 500px;
+    }
+    @media (max-width: $mobile) {
+      width: 100%;
+      margin: 0 auto;
+      aspect-ratio: 385/503;
+    }
+  }
+
+  &__content {
+    flex: 1 1 auto;
+    padding-top: clamp(50px, 10vw, 170px);
+    padding-bottom: 90px;
+    @include animation(1, 0.8, 0.5);
+    @media (max-width: $tablet) {
+      padding-top: 20px;
+    }
+    @media (max-width: $mobile) {
+      padding-bottom: 0;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: math.div(52, 48);
+    @media (max-width: $mobile) {
+      font-size: 38px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 27px;
+      @media (max-width: $mobile) {
+        margin-bottom: 44px;
+      }
+    }
+  }
+
+  &__text {
+    line-height: math.div(24, 20);
+    font-size: 20px;
+
+    &:not(:last-child) {
+      margin-bottom: 60px;
+      @media (max-width: $mobile) {
+        margin-bottom: 80px;
+      }
+    }
+
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 32px;
+        @media (max-width: $mobile) {
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  &__button {
+    min-width: 271px;
+    @media (max-width: $mobile) {
+      min-width: 265px;
+      display: flex;
+      margin: 0 auto;
+      max-width: 265px;
+    }
+  }
+}
+
+.mission--reverse {
+  .mission__row {
+    flex-direction: row-reverse;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+}
+
+.mission--light-green {
+  background: var(--light-green);
+}
