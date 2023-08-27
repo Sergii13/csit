@@ -7,8 +7,34 @@
     padding: 50px 0 60px;
   }
 
-  &__container {
+
+  &__block {
+    max-width: 600px;
+    padding: 50px 10px 0 10px;
+    @media (max-width: $tablet) {
+      max-width: 100%;
+      padding: 0;
+    }
   }
+
+  &__title2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: math.div(52, 48);
+    @media (max-width: $tablet) {
+      font-size: 38px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 42px;
+    }
+  }
+
+  &__descr {
+    font-size: 20px;
+    line-height: math.div(24, 20);
+  }
+
 
   &__grid-layout {
     display: grid;
@@ -56,6 +82,7 @@
   justify-content: space-between;
   gap: 25px;
   color: var(--white);
+  position: relative;
   background: var(--green);
   padding: 60px 60px 40px 60px;
   @include animation(1, 0.8, 0.3);
@@ -68,6 +95,22 @@
     margin: 0 -22px;
   }
 
+  &--hover {
+    transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
+
+    &:hover {
+      background: var(--light-green);
+
+      .item-data__icon {
+        filter: brightness(0) invert(1);
+      }
+
+      .item-data__count {
+        color: #fff;
+      }
+    }
+  }
+
   &:nth-child(odd) {
     margin-top: -250px;
     @media (max-width: $tablet) {
@@ -75,7 +118,25 @@
     }
   }
 
+  &__link-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 93px;
+    height: 93px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: var(--light-green);
+
+    img {
+      transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
+    }
+  }
+
   &__icon {
+    transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
     height: 165px;
     @media (max-width: $mobile) {
       max-height: 124px;
@@ -91,6 +152,7 @@
 
   &__count {
     margin-bottom: 16px;
+    transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
     font-size: 24px;
     font-weight: 700;
     color: var(--light-green);

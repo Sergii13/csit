@@ -149,7 +149,8 @@
   &::after {
     bottom: 0;
     width: 50%;
-    left: 0;
+    right: 0;
+    left: auto;
   }
 
   span {

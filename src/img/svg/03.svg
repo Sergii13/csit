@@ -1,0 +1,14 @@
+<svg id="Group_117" data-name="Group 117" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188.782" height="177.125" viewBox="0 0 188.782 177.125">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_107" data-name="Rectangle 107" width="188.782" height="177.125" fill="none" stroke="#195729" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_116" data-name="Group 116" clip-path="url(#clip-path)">
+    <path id="Path_106" data-name="Path 106" d="M74.3,48.139a32.064,32.064,0,0,1,6.476-4.205L83.1,35.027l9.515-1.756,5.347,7.494a32.1,32.1,0,0,1,7.549,1.618l7.944-4.662,7.969,5.487L119.9,52.293a32.175,32.175,0,0,1,4.206,6.475l8.906,2.322,1.755,9.515-7.492,5.346a32.174,32.174,0,0,1-1.619,7.55l4.662,7.944-5.487,7.968-9.084-1.521a32.193,32.193,0,0,1-6.476,4.205L106.946,111l-9.515,1.755-5.346-7.493a32.173,32.173,0,0,1-7.55-1.618l-7.944,4.662-7.968-5.487,1.521-9.085a32.214,32.214,0,0,1-4.2-6.475l-8.907-2.322-1.754-9.515L62.77,70.08a32.124,32.124,0,0,1,1.619-7.55l-4.663-7.944,5.487-7.969Z" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_107" data-name="Path 107" d="M157.669,75.81h12.479S185.1,74.1,185.1,93.32v10.36c0,19.218-14.948,16.656-14.948,16.656h-12.72" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_108" data-name="Path 108" d="M31.113,120.411H18.634S3.686,122.119,3.686,102.9V92.541c0-19.218,14.948-16.656,14.948-16.656h12.72" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_109" data-name="Path 109" d="M160.57,122.15V69.235a65.55,65.55,0,0,0-131.1,0v53.291c0,18.654,7.34,37.946,51.209,37.946" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_110" data-name="Path 110" d="M82.026,166.224a12.964,12.964,0,1,1,17.37,5.867A12.964,12.964,0,0,1,82.026,166.224Z" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+  </g>
+</svg>

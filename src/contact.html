@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/_head.htm',{
+"title":"Contact"
+})
+<body>
+<div class="wrapper">
+    <div class="wrapper__scroll">
+        <main class="page">
+            <div class="hero">
+                <div class="hero__image-ibg">
+                    <img src="@img/main-block/13.png" alt="">
+                </div>
+                @@include('html/_header.htm',{})
+                <section class="main-block main-block--contact">
+                    <div class="main-block__container">
+                        <div class="main-block__content">
+                            <h1 data-watch data-watch-once class="main-block__title title">
+                                Get in touch
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="main-block__contact contact">
+                        <div class="main-block__container">
+                            <div class="contact__row">
+                                <div class="contact__column">
+                                    <div class="contact__text">
+                                        For future information please email us:
+                                    </div>
+                                    <a href="mailto:info@csit.co" class="contact__link">info@csit.co</a>
+                                </div>
+                                <div class="contact__column">
+                                    <div class="contact__text">
+                                        3191 Louis A. Amos Street
+                                        Lachine, Québec H8T-1C4
+                                    </div>
+                                    <div class="contact__country">
+                                        CANADA
+                                    </div>
+                                </div>
+                                <div class="contact__column">
+                                    <div class="contact__text">
+                                        Telephone:
+                                    </div>
+                                    <a href="tel:+15146375119" class="contact__link">+1.514.637.5119</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="map">
+                <div class="map__container">
+                    <div data-watch data-watch-once class="map__wrap-ibg">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.182370726!2d-0.10159865000000001!3d51.52864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2z0JvQvtC90LTQvtC9LCDQktC10LvQuNC60LAg0JHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1693124046660!5m2!1suk!2sua"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/_footer.htm',{"class":"footer--big"})
+    </div>
+
+</div>
+@@include('html/_js.htm',{})
+</body>
+</html>

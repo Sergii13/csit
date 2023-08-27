@@ -1,0 +1,80 @@
+.st {
+  padding: 112px 0 160px;
+  @media (max-width: $mobile) {
+    padding: 50px 0 50px;
+  }
+
+  &__container {
+  }
+
+  &--last {
+    padding-bottom: 50px;
+    @media (max-width: $mobile) {
+      padding-bottom: 0;
+    }
+  }
+
+  &__row {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    @media (max-width: $tablet) {
+      gap: 30px;
+    }
+    @media (max-width: $mobile) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 60px;
+    }
+
+    &--one {
+      @media (max-width: $mobile) {
+        gap: 0px;
+      }
+    }
+  }
+
+  &__column {
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: math.div(29, 24);
+
+    &:not(:last-child) {
+      margin-bottom: 18px;
+    }
+  }
+
+  &__head {
+    max-width: 50%;
+    @media (max-width: $mobile) {
+      max-width: 100%;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 41px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: math.div(24, 20);
+
+    &:not(:last-child) {
+      margin-bottom: 66px;
+      @media (max-width: $mobile) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  &__list {
+  }
+}
+
+.operation-spollers {
+  &__list-item {
+  }
+}

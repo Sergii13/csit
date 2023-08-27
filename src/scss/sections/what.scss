@@ -7,6 +7,14 @@
     margin-top: 0;
   }
 
+  &--train {
+    margin-bottom: -200px;
+    margin-top: 0;
+    @media (max-width: $mobile) {
+      margin-bottom: 0;
+    }
+  }
+
   &__title {
     width: 444px;
     flex-shrink: 0;
@@ -14,6 +22,7 @@
     padding: 56px 38px 40px 46px;
     font-weight: 700;
     font-size: 58px;
+    word-break: break-word;
     line-height: math.div(71, 58);
     @media (max-width: $pc) {
       font-size: 48px;
@@ -46,6 +55,9 @@
 
   &__text {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     line-height: math.div(24, 20);
     background: var(--light-green);
     padding: 70px 60px 60px 70px;
