@@ -1,3 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="25.323" height="19.002" viewBox="0 0 25.323 19.002">
-  <path id="arrow_right_alt_FILL0_wght400_GRAD0_opsz48" d="M175.842,352l-1.7-1.659,6.637-6.637H160v-2.37h20.78l-6.676-6.676L175.8,333l9.521,9.521Z" transform="translate(-160 -333)" fill="#7eb72e"/>
+    <path d="M175.842,352l-1.7-1.659,6.637-6.637H160v-2.37h20.78l-6.676-6.676L175.8,333l9.521,9.521Z"
+          transform="translate(-160 -333)" fill="#7eb72e"/>
 </svg>
