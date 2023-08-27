@@ -16,6 +16,9 @@
 .main-block {
   padding-bottom: 250px;
   flex: 1 1 auto;
+  @media (max-width: $tablet) {
+    padding-bottom: 100px;
+  }
 
   &--services {
     padding-bottom: 0;
