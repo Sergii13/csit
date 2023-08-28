@@ -1,0 +1,14 @@
+<svg id="Group_172" data-name="Group 172" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.542" height="143.848" viewBox="0 0 118.542 143.848">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_139" data-name="Rectangle 139" width="118.542" height="143.848" fill="none" stroke="#7eb72e" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_171" data-name="Group 171" clip-path="url(#clip-path)">
+    <path id="Path_127" data-name="Path 127" d="M62.676,33.678A27.625,27.625,0,1,1,90.3,61.3,27.625,27.625,0,0,1,62.676,33.678Z" transform="translate(-2.899 -0.28)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_128" data-name="Path 128" d="M76.939,32.5,88.113,43.816l17.914-19.6" transform="translate(-3.558 -1.12)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_197" data-name="Line 197" x2="64.471" transform="translate(22.514 91.006)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_198" data-name="Line 198" x2="64.471" transform="translate(22.514 110.878)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_129" data-name="Path 129" d="M104.552,68.435v72H3.765V3.766H60.324" transform="translate(-0.174 -0.174)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.53"/>
+  </g>
+</svg>

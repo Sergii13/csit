@@ -1,0 +1,15 @@
+<svg id="Group_105" data-name="Group 105" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.424" height="167.429" viewBox="0 0 176.424 167.429">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_100" data-name="Rectangle 100" width="176.424" height="167.429" fill="none" stroke="#7eb72e" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_104" data-name="Group 104" clip-path="url(#clip-path)">
+    <path id="Path_81" data-name="Path 81" d="M5.746,128.014a19.806,19.806,0,1,1,26.537,8.964A19.805,19.805,0,0,1,5.746,128.014Z" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="19.806" cy="19.806" r="19.806" transform="translate(67.915 3.685)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="19.806" cy="19.806" r="19.806" transform="translate(133.126 99.422)" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_82" data-name="Path 82" d="M133.989,146.315A70.131,70.131,0,0,1,33.14,137.649" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_83" data-name="Path 83" d="M120.773,31.753a70.114,70.114,0,0,1,37.074,61.864q0,2.931-.237,5.8" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_84" data-name="Path 84" d="M18.07,85.414A70.2,70.2,0,0,1,67.914,26.327" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+  </g>
+</svg>

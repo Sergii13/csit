@@ -1,0 +1,19 @@
+<svg id="Group_90" data-name="Group 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.259" height="168.352" viewBox="0 0 178.259 168.352">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="178.259" height="168.352" fill="none" stroke="#195729" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_89" data-name="Group 89" clip-path="url(#clip-path)">
+    <circle id="Ellipse_37" data-name="Ellipse 37" cx="8.471" cy="8.471" r="8.471" transform="translate(80.659 3.685)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="56.417" cy="56.417" r="56.417" transform="translate(32.713 51.832)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_58" data-name="Path 58" d="M44.309,108.249a44.82,44.82,0,1,1,44.82,44.82A44.82,44.82,0,0,1,44.309,108.249Z" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_135" data-name="Line 135" x2="178.259" transform="translate(0 23.162)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_59" data-name="Path 59" d="M89.13,77.626V108.25L63.974,126.686" fill="none" stroke="#7eb72e" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_60" data-name="Path 60" d="M86.051,23.447,39.9,47.118,20.666,37.442" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <path id="Path_61" data-name="Path 61" d="M92.483,23.447l46.154,23.671,19.231-9.676" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_136" data-name="Line 136" y2="28.385" transform="translate(89.13 23.447)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_137" data-name="Line 137" x2="12.578" y2="10.159" transform="translate(76.552 41.673)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+    <line id="Line_138" data-name="Line 138" x1="12.578" y2="10.159" transform="translate(89.204 41.673)" fill="none" stroke="#195729" stroke-miterlimit="10" stroke-width="7.371"/>
+  </g>
+</svg>
