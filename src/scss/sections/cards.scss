@@ -52,18 +52,21 @@
     transform: translateY(0);
   }
 
-  &:hover {
-    .card__content {
-      background: var(--light-green)
-    }
 
-    .card__arrow svg {
-      transform: rotate(30deg);
-    }
+  @media (hover: hover) {
+    &:hover {
+      .card__content {
+        background: var(--light-green)
+      }
 
-    .card__image-ibg img {
-      transform-origin: center;
-      transform: scale(1.03);
+      .card__arrow svg {
+        transform: rotate(30deg);
+      }
+
+      .card__image-ibg img {
+        transform-origin: center;
+        transform: scale(1.03);
+      }
     }
   }
 
@@ -110,6 +113,7 @@
     flex: 1 1 auto;
     font-size: 20px;
     line-height: math.div(24, 20);
+    max-width: 364px;
 
     &:not(:last-child) {
       margin-bottom: 50px;

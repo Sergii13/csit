@@ -61,9 +61,13 @@
   &__text {
     font-size: 20px;
     line-height: math.div(24, 20);
+    max-width: 90%;
+    @media (max-width: $mobile) {
+      max-width: 100%;
+    }
 
     &:not(:last-child) {
-      margin-bottom: 66px;
+      margin-bottom: 35px;
       @media (max-width: $mobile) {
         margin-bottom: 40px;
       }

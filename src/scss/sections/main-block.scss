@@ -1,8 +1,11 @@
 .hero {
-  min-height: 100vh;
+  min-height: clamp(700px, 100vh, 1080px);
   position: relative;
   display: flex;
   flex-direction: column;
+  @media (max-width: $mobile) {
+    min-height: clamp(400px, 100vh, 768px);
+  }
 
   &__image-ibg {
     position: absolute;
@@ -10,14 +13,27 @@
     left: 0;
     width: 100%;
     height: 100%;
+
+    img {
+      object-position: top right;
+    }
   }
 }
 
 .main-block {
-  padding-bottom: 250px;
+  padding-bottom: 140px;
   flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
   @media (max-width: $tablet) {
     padding-bottom: 100px;
+  }
+
+  &.pb250 {
+    padding-bottom: 250px;
+    @media (max-width: $tablet) {
+      padding-bottom: 100px;
+    }
   }
 
   &--services {
@@ -35,11 +51,15 @@
     position: relative;
     z-index: 2;
     width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
     height: 100%;
   }
 
   &__content {
     color: var(--white);
+    flex: 1 1 auto;
     //@include adaptiveValue("padding-top", 200, 144, 0, 1920, 991);
     padding-top: clamp(100px, 18.5vh, 200px);
     @media (max-width: $mobile) {
@@ -56,6 +76,12 @@
     transition: transform 1s ease .3s, opacity 1s ease .3s;
     opacity: 0;
     transform: translateY(40px);
+
+    br {
+      @media (max-width: $mobileSmall) {
+        display: none;
+      }
+    }
 
     &._watcher-view {
       opacity: 1;
@@ -151,6 +177,7 @@
     line-height: math.div(38, 34);
     @media (max-width: $pc) {
       font-size: 24px;
+      line-height: math.div(28, 24);
     }
 
   }

@@ -149,12 +149,13 @@
   &::after {
     bottom: 0;
     width: 50%;
-    right: 0;
-    left: auto;
+    right: auto;
+    left: 0;
   }
 
   span {
     top: calc(50% - toRem(1));
+
   }
 
   .menu-open & {
@@ -354,7 +355,9 @@
     padding-left: 28px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 11px;
+
+
     @media (max-width: $mobile) {
       padding-left: 16px;
     }
@@ -408,6 +411,11 @@
       font-weight: 700;
       line-height: math.div(22, 20);
       transition: all 0.3s cubic-bezier(0.5, 0.02, 0.13, 0.5);
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+        display: inline-block;
+      }
 
       @media (max-width: $mobile) {
         font-size: 16px;

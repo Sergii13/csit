@@ -177,6 +177,10 @@
     font-size: 20px;
     line-height: math.div(24, 20);
 
+    p {
+      max-width: 90%
+    }
+
     img {
       width: 25px;
       flex-shrink: 0;

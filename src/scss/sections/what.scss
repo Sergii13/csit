@@ -43,10 +43,6 @@
 
   &__row {
     display: flex;
-    padding: 0 10px;
-    @media (max-width: $tablet) {
-      padding: 0;
-    }
     @media (max-width: $mobile) {
       flex-direction: column;
       margin: 0 - 22px;

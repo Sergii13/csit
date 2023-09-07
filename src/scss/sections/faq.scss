@@ -96,6 +96,9 @@
     cursor: pointer;
     font-weight: 500;
     line-height: math.div(24, 20);
+    @media (max-width: $mobile) {
+      gap: 32px;
+    }
 
     &._spoller-active {
       .spollers__icon {
