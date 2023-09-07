@@ -8,9 +8,6 @@
     overflow: hidden;
   }
 
-  &__container {
-  }
-
 
   &--grey {
     background: #F4F4F4;
@@ -86,9 +83,6 @@
     aspect-ratio: 624/815;
     margin-bottom: -84px;
     @include animation();
-    @media (max-width: 1600px) {
-      max-width: 500px;
-    }
     @media (max-width: $mobile) {
       width: 100%;
       margin: 0 auto;
